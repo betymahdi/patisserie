@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pâtisserie new patisse- Pâtisserie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pâtisserie new patisse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Rechercher"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/10154/Refonte%202023/Bandeau-Maison-Toublanc4.webp" class="d-block w-100" alt="Pâtisseries">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=600" class="d-block w-100" alt="Gâteaux">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.leboulangerparisien.com/wp-content/uploads/2021/05/Best-bread.jpg.webp" class="d-block w-100" alt="Macarons">
+        </div>
+      </div>
+    </div>
+
+    <!-- Nos Spécialités -->
+    <section class="specialites py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Nos Spécialités</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://lovefoodfeed.com/wp-content/uploads/2023/01/Macarons-px-1200-01-1.jpg" class="card-img-top" alt="Macarons">
+              <div class="card-body">
+                <h5 class="card-title">Macarons</h5>
+                <p class="card-text">Découvrez nos macarons aux saveurs délicates et variées.</p>
+                <a href="#" class="btn btn-primary">Voir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://www.demotivateur.fr/uploads/charlotte_2.jpg" class="card-img-top" alt="Gâteaux">
+              <div class="card-body">
+                <h5 class="card-title">Gâteaux</h5>
+                <p class="card-text">Des gâteaux sur mesure pour vos événements spéciaux.</p>
+                <a href="#" class="btn btn-primary">Voir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://i.pinimg.com/736x/44/31/93/443193ab433d3ce17aa7890a4e274878.jpg" class="card-img-top" alt="Viennoiseries">
+              <div class="card-body">
+                <h5 class="card-title">gâteaux marocains</h5>
+                <p class="card-text">Les gâteaux marocains, savoureux et parfumés.</p>
+                <a href="#" class="btn btn-primary">Voir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notre Équipe -->
+    <section class="equipe py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Notre Équipe</h2>
+        <div class="row">
+          <div class="col-md-4 text-center mb-4">
+            <img src="https://www.bladi.net/img/logo/meryem-cherkaoui-restaurant-marseille.jpg" class="rounded-circle mb-3" alt="Chef Pâtissier">
+            <h5>Meriem cherkaoui</h5>
+            <p>chef cuisine</p>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <img src="https://maymana.ma/MaymanaApp/wp-content/uploads/2021/04/Madame-BERRADA-Portrait-1-756x1024.jpg" class="rounded-circle mb-3" alt="Sous-Chef">
+            <h5>Amina Benali</h5>
+            <p>Chef Pâtissière</p>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIibHJCfZ5JdYYnlrl__h46Ww-ascPbLSvqtmaOx5RLJ1YsgGmU1V9lmG6gDB2PjNWjmU&usqp=CAU" class="rounded-circle mb-3" alt="Pâtissière">
+            <h5>Youssef Tazi</h5>
+            <p>Artisan Pâtissier</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-info p-4 bg-white rounded shadow">
+              <h4 class="mb-4">Informations de Contact</h4>
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-geo-alt-fill text-primary me-3 fs-4"></i>
+                <p class="mb-0">bd mohammed VI,Mohammadia,Maroc</p>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-telephone-fill text-primary me-3 fs-4"></i>
+                <p class="mb-0">+212 530-363729</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-envelope-fill text-primary me-3 fs-4"></i>
+                <p class="mb-0">info@patisserienewpatisse.ma</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.311488239387!2d-7.3623164!3d33.700888000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d00906c19b%3A0x7d3251b773a6503b!2sP%C3%A2tisserie%20New%20Patisse!5e0!3m2!1sfr!2sma!4v1742260700432!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p>&copy; 2025 Pâtisserie new patisse. Tous droits réservés.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
