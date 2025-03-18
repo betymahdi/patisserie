@@ -1,2 +1,1 @@
-# interface_patisserie
-interface d une patisserie avec boostrap 
+Ce projet consiste en la création d'une interface utilisateur pour une pâtisserie en ligne. Il a été développé en utilisant le framework Bootstrap pour garantir une interface réactive, moderne et agréable à utiliser sur différentes tailles d'écran.
